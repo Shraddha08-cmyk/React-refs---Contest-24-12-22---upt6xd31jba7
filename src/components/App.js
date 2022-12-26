@@ -1,4 +1,9 @@
- const emailVal = useRef("")
+import React,{useState,useEffect,useRef} from 'react'
+import '../styles/App.css';
+const App = () => {
+
+//code here 
+  const emailVal = useRef("")
   const passValue = useRef("")
 
 const [email, setEmail] = useState("");
@@ -25,4 +30,4 @@ useEffect(()=>{
 }
 
 
-export default App;
+export default App
